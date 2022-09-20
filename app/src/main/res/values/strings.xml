@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MarketOnline</string>
+    <string name="name_category">Name Category</string>
+    <string name="name_product">Name Product</string>
+    <string name="price_product">120.000vnđ</string>
+    <string name="expiry_product">3 Ngày</string>
+    <string name="content_product">Thịt bò Kobe là loại thịt bò nổi tiếng thế giới và là một đặc sản của thành phố Kobe thuộc vùng Kinki, Nhật Bản thịt được lấy từ Bò Kobe một giống bò thịt độc đáo của vùng Kobe</string>
+    <string name="discount">Giảm : 10%</string>
+    <string name="addProduct">Thêm Giỏ Hàng</string>
+    <string name="content">Thông tin :</string>
+    <string name="home">Trang Chủ</string>
+    <string name="invoice_detail">Chi Tiết Hóa Đơn</string>
+    <string name="invoice">Hóa Đơn</string>
+    <string name="product">Sản Phẩm</string>
+    <string name="manager">Quản Lý</string>
+    <string name="detail_product">Chi Tiết Sản Phẩm</string>
+    <string name="my_cart">Đơn Hàng</string>
+    <string name="cart">Giỏ Hàng</string>
+    <string name="search">Search</string>
+    <string name="user">User</string>
+    <string name="manager_user">Manager User</string>
+    <string name="add_user">Add User</string>
+    <string name="show_all_user">Show All User</string>
+    <string name="manage">Manager</string>
+    <string name="manage_product">Manager Product</string>
+    <string name="add_product">Add Product</string>
+    <string name="titleDialogAddCart">Đặt Mua Sản Phẩm</string>
+    <string name="nhan_vien">Nhân Viên</string>
+    <string name="rank_2">2</string>
+    <string name="linkRank_2">https://media.istockphoto.com/vectors/silver-2st-place-medal-vector-metal-realistic-badge-with-second-vector-id700817234</string>
+    <string name="khach_hang">Khách Hàng</string>
+    <string name="rank_3">3</string>
+    <string name="linkRank_3">https://media.istockphoto.com/vectors/bronze-3st-place-medal-vector-metal-realistic-badge-with-third-vector-id700817634</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

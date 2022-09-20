@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_yellow_corner_16dp_top_left_right"
+        android:text="Thông Tin Hóa Đơn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:text="Địa chỉ nhận hàng :"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtAddressInvoice"
+        android:hint="Địa chỉ nhận hàng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:text="SĐT người nhận hàng :"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtPhoneInvoice"
+        android:hint="Số điện thoại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:background="@drawable/bg_color_tel200_conner_16dp"
+            android:layout_marginEnd="10dp"
+            android:text="Cencel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_oke"
+            android:background="@drawable/bg_red_corner_16dp"
+            android:layout_marginStart="10dp"
+            android:text="Oke"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

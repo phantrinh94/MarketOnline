@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_user"
+                android:icon="@drawable/ic_user_24"
+                android:title="@string/manager_user">
+                <menu>
+                    <item
+                        android:id="@+id/menu_show_all_user"
+                        android:icon="@drawable/ic_all_user_24"
+                        android:title="@string/show_all_user" />
+                    <item
+                        android:id="@+id/menu_add_user"
+                        android:icon="@drawable/ic_add_user_24"
+                        android:title="@string/add_user" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_manage_product"
+                android:icon="@drawable/ic_product_24"
+                android:title="@string/manage_product">
+                <menu>
+                    <item
+                        android:id="@+id/menu_add_product"
+                        android:title="@string/add_product"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_invoice"
+                android:icon="@drawable/ic_invoice_24"
+                android:title="Invoice">
+                <menu>
+                    <item android:title="Show All Invoice"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/menu_manager_category"
+                android:icon="@drawable/ic_category_24"
+                android:title="Manager Category">
+                <menu>
+                    <item android:title="Add Category"/>
+                </menu>
+
+            </item>
+        </menu>
+
+    </item>
+</menu>

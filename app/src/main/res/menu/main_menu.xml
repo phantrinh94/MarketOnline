@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_cart_24"
+        android:title="@string/cart"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/menu_user"
+                android:icon="@drawable/ic_user_24"
+                android:title="@string/user" />
+
+            <item
+                android:id="@+id/menu_manage"
+                android:icon="@drawable/ic_manager_24"
+                android:title="@string/manage" />
+
+            <item
+                android:id="@+id/menu_invoice"
+                android:icon="@drawable/ic_invoice_24"
+                android:title="Invoice" />
+        </menu>
+    </item>
+
+</menu>
